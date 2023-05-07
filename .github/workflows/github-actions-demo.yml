@@ -2,7 +2,7 @@ name: Terraform Pipeline
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   terraform:
     runs-on: ubuntu-latest
